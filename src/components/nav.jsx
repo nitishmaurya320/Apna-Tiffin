@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <nav className="navbar h-[100px]">
-      <div className="logo text-4xl">Apna-Tiffin</div>
+      <div className="logo text-4xl font-extrabold">Apna-Tiffin</div>
 
       <ul className={`nav-list ${open ? "active" : ""}`}>
         <li>Home</li>
