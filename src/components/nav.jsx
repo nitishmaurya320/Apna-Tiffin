@@ -5,8 +5,8 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="navbar">
-      <div className="logo">Apna-Tiffin</div>
+    <nav className="navbar h-[100px]">
+      <div className="logo text-4xl">Apna-Tiffin</div>
 
       <ul className={`nav-list ${open ? "active" : ""}`}>
         <li>Home</li>
